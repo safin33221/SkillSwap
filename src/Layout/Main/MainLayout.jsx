@@ -1,11 +1,12 @@
 import { Outlet } from "react-router";
-import Navbar from "../../Pages/Home/Common/Navbar";
+import Navbar from "../../Pages/Common/Navbar";
+
 
 
 const MainLayout = () => {
     return (
         <div >
-            <nav className="bg-base-100 shadow-xl">
+            <nav className="bg-base-100 shadow-xll">
                 <Navbar/>
             </nav>
             <main className="min-h-screen"><Outlet ></Outlet></main>
